@@ -1,2 +1,2 @@
 # python-problems
- My solutions to kattis.com python problems
+ My solutions written in Python for kattis problems 
