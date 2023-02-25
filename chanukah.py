@@ -1,13 +1,17 @@
 def chanukah():
     sets = int(input())
-    dict = {}
+    solution = {}
+    
     for k in range(sets):
-        days = int(input())
+        inp = input().split(" ")
+        increment = int(inp[0])
+        days = int(inp[1])
         total = (days * (days + 1) // 2) + days
-        dict[k + 1] = total
+        solution[increment] = total
 
-    for key, value in dict.items():
+    for key, value in solution.items():
         print(key, value)
 
 
 chanukah()
+
